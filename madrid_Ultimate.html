@@ -1,0 +1,1789 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_499206ec6d64eac8015e88390cc58669 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_499206ec6d64eac8015e88390cc58669" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_499206ec6d64eac8015e88390cc58669 = L.map(
+                "map_499206ec6d64eac8015e88390cc58669",
+                {
+                    center: [40.4194, -3.7113],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_499206ec6d64eac8015e88390cc58669);
+
+            
+
+        
+    
+            var tile_layer_0f0abe77aa7c45a0365c2b68ebd01ecf = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_499206ec6d64eac8015e88390cc58669);
+        
+    
+            var marker_da9c76d7d8dea6c413617a00f5b066d5 = L.marker(
+                [40.4194, -3.7113],
+                {}
+            ).addTo(map_499206ec6d64eac8015e88390cc58669);
+        
+    
+            var icon_0cc20f7d43daad33d77b1794fc3ae100 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_da9c76d7d8dea6c413617a00f5b066d5.setIcon(icon_0cc20f7d43daad33d77b1794fc3ae100);
+        
+    
+        var popup_47fffee9ed5364e6e1b47b1febea4be9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62cee2220a30c7e225949789b5083e50 = $(`<div id="html_62cee2220a30c7e225949789b5083e50" style="width: 100.0%; height: 100.0%;"><b>Palacio de los Duques Gran Meliá (Hotel)</b><br>Main hotel base</div>`)[0];
+            popup_47fffee9ed5364e6e1b47b1febea4be9.setContent(html_62cee2220a30c7e225949789b5083e50);
+        
+
+        marker_da9c76d7d8dea6c413617a00f5b066d5.bindPopup(popup_47fffee9ed5364e6e1b47b1febea4be9)
+        ;
+
+        
+    
+    
+            marker_da9c76d7d8dea6c413617a00f5b066d5.bindTooltip(
+                `<div>
+                     Palacio de los Duques Gran Meliá (Hotel)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_1d78d92aa9d1cce00a98c6f10e85c007 = L.featureGroup(
+                {}
+            ).addTo(map_499206ec6d64eac8015e88390cc58669);
+        
+    
+            var marker_f823e6864ff0da206400e9814eca98f2 = L.marker(
+                [40.419991, -3.688737],
+                {}
+            ).addTo(feature_group_1d78d92aa9d1cce00a98c6f10e85c007);
+        
+    
+            var icon_283b41a5a9e1f2f045c4cc9e940c6f73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f823e6864ff0da206400e9814eca98f2.setIcon(icon_283b41a5a9e1f2f045c4cc9e940c6f73);
+        
+    
+        var popup_104178d51e43634fed6ca40d1238ba63 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb541f38fced63b0a4903b9cb83fc54e = $(`<div id="html_cb541f38fced63b0a4903b9cb83fc54e" style="width: 100.0%; height: 100.0%;"><b>Retiro Park</b><br>~23 min walk from hotel</div>`)[0];
+            popup_104178d51e43634fed6ca40d1238ba63.setContent(html_cb541f38fced63b0a4903b9cb83fc54e);
+        
+
+        marker_f823e6864ff0da206400e9814eca98f2.bindPopup(popup_104178d51e43634fed6ca40d1238ba63)
+        ;
+
+        
+    
+    
+            marker_f823e6864ff0da206400e9814eca98f2.bindTooltip(
+                `<div>
+                     Retiro Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d2f80f4207a50d3303b1d2178f7da6b8 = L.marker(
+                [40.415524, -3.707488],
+                {}
+            ).addTo(feature_group_1d78d92aa9d1cce00a98c6f10e85c007);
+        
+    
+            var icon_08bfb0975efae06b20b424d17b19fc4b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_d2f80f4207a50d3303b1d2178f7da6b8.setIcon(icon_08bfb0975efae06b20b424d17b19fc4b);
+        
+    
+        var popup_2e744d767d07eda6afdb8b618260949c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c50c31f5c65da94f5bee7be1c2274478 = $(`<div id="html_c50c31f5c65da94f5bee7be1c2274478" style="width: 100.0%; height: 100.0%;"><b>Plaza Mayor</b><br>~6 min walk from hotel</div>`)[0];
+            popup_2e744d767d07eda6afdb8b618260949c.setContent(html_c50c31f5c65da94f5bee7be1c2274478);
+        
+
+        marker_d2f80f4207a50d3303b1d2178f7da6b8.bindPopup(popup_2e744d767d07eda6afdb8b618260949c)
+        ;
+
+        
+    
+    
+            marker_d2f80f4207a50d3303b1d2178f7da6b8.bindTooltip(
+                `<div>
+                     Plaza Mayor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_af2261127ca29fc5a6b25e1e80eda011 = L.marker(
+                [40.4211, -3.7173],
+                {}
+            ).addTo(feature_group_1d78d92aa9d1cce00a98c6f10e85c007);
+        
+    
+            var icon_acdc7666410d051357c038f7b37c8e1a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_af2261127ca29fc5a6b25e1e80eda011.setIcon(icon_acdc7666410d051357c038f7b37c8e1a);
+        
+    
+        var popup_f6fc291d56fb18033cb74f2269a02000 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db6ab2b9acc31b4ae6355d7c6832b71a = $(`<div id="html_db6ab2b9acc31b4ae6355d7c6832b71a" style="width: 100.0%; height: 100.0%;"><b>Templo de Debod</b><br>~7 min walk from hotel</div>`)[0];
+            popup_f6fc291d56fb18033cb74f2269a02000.setContent(html_db6ab2b9acc31b4ae6355d7c6832b71a);
+        
+
+        marker_af2261127ca29fc5a6b25e1e80eda011.bindPopup(popup_f6fc291d56fb18033cb74f2269a02000)
+        ;
+
+        
+    
+    
+            marker_af2261127ca29fc5a6b25e1e80eda011.bindTooltip(
+                `<div>
+                     Templo de Debod
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ad14895e8f17a7b97a479de68c5b3f32 = L.marker(
+                [40.415649, -3.714552],
+                {}
+            ).addTo(feature_group_1d78d92aa9d1cce00a98c6f10e85c007);
+        
+    
+            var icon_76467c3fd34634e4cbeb1555bbadce8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_ad14895e8f17a7b97a479de68c5b3f32.setIcon(icon_76467c3fd34634e4cbeb1555bbadce8e);
+        
+    
+        var popup_22e4fcb209927bae265640a65f7d7860 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2eb3269cdfcb0f6a123219c2b88e1f34 = $(`<div id="html_2eb3269cdfcb0f6a123219c2b88e1f34" style="width: 100.0%; height: 100.0%;"><b>La Almudena Catedral</b><br>~6 min walk from hotel</div>`)[0];
+            popup_22e4fcb209927bae265640a65f7d7860.setContent(html_2eb3269cdfcb0f6a123219c2b88e1f34);
+        
+
+        marker_ad14895e8f17a7b97a479de68c5b3f32.bindPopup(popup_22e4fcb209927bae265640a65f7d7860)
+        ;
+
+        
+    
+    
+            marker_ad14895e8f17a7b97a479de68c5b3f32.bindTooltip(
+                `<div>
+                     La Almudena Catedral
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da65d03456b62a3123d97b8758e08501 = L.marker(
+                [40.417953, -3.714312],
+                {}
+            ).addTo(feature_group_1d78d92aa9d1cce00a98c6f10e85c007);
+        
+    
+            var icon_6b054ca0158683e00f4a2156fd510572 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_da65d03456b62a3123d97b8758e08501.setIcon(icon_6b054ca0158683e00f4a2156fd510572);
+        
+    
+        var popup_5cdcc45a7d220b116eed750574497dbb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3baed84b6c36505b1fcaae5a323e9c6a = $(`<div id="html_3baed84b6c36505b1fcaae5a323e9c6a" style="width: 100.0%; height: 100.0%;"><b>Royal Palace</b><br>~4 min walk from hotel</div>`)[0];
+            popup_5cdcc45a7d220b116eed750574497dbb.setContent(html_3baed84b6c36505b1fcaae5a323e9c6a);
+        
+
+        marker_da65d03456b62a3123d97b8758e08501.bindPopup(popup_5cdcc45a7d220b116eed750574497dbb)
+        ;
+
+        
+    
+    
+            marker_da65d03456b62a3123d97b8758e08501.bindTooltip(
+                `<div>
+                     Royal Palace
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c3121cd46dd5abba068b0dc281f2cc0a = L.marker(
+                [40.408571, -3.693996],
+                {}
+            ).addTo(feature_group_1d78d92aa9d1cce00a98c6f10e85c007);
+        
+    
+            var icon_eb22ac408fb614b8f7fe88479ed08d5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_c3121cd46dd5abba068b0dc281f2cc0a.setIcon(icon_eb22ac408fb614b8f7fe88479ed08d5b);
+        
+    
+        var popup_8598b7db773749b5c19efdaf556fb548 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb57b5df7d7fb2a25c8d1523c8efa3a9 = $(`<div id="html_eb57b5df7d7fb2a25c8d1523c8efa3a9" style="width: 100.0%; height: 100.0%;"><b>Museo Reina Sofía</b><br>~23 min walk from hotel</div>`)[0];
+            popup_8598b7db773749b5c19efdaf556fb548.setContent(html_eb57b5df7d7fb2a25c8d1523c8efa3a9);
+        
+
+        marker_c3121cd46dd5abba068b0dc281f2cc0a.bindPopup(popup_8598b7db773749b5c19efdaf556fb548)
+        ;
+
+        
+    
+    
+            marker_c3121cd46dd5abba068b0dc281f2cc0a.bindTooltip(
+                `<div>
+                     Museo Reina Sofía
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fea7320aab32f745909b31d7a216ec2e = L.marker(
+                [40.41378, -3.692127],
+                {}
+            ).addTo(feature_group_1d78d92aa9d1cce00a98c6f10e85c007);
+        
+    
+            var icon_73a7c33567a5b3f3e3170dcc931ad525 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_fea7320aab32f745909b31d7a216ec2e.setIcon(icon_73a7c33567a5b3f3e3170dcc931ad525);
+        
+    
+        var popup_2e0ba74e825781ad538c9a8f17b10ad6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8762705612a9422f630bb37b61a97660 = $(`<div id="html_8762705612a9422f630bb37b61a97660" style="width: 100.0%; height: 100.0%;"><b>Museo del Prado</b><br>~21 min walk from hotel</div>`)[0];
+            popup_2e0ba74e825781ad538c9a8f17b10ad6.setContent(html_8762705612a9422f630bb37b61a97660);
+        
+
+        marker_fea7320aab32f745909b31d7a216ec2e.bindPopup(popup_2e0ba74e825781ad538c9a8f17b10ad6)
+        ;
+
+        
+    
+    
+            marker_fea7320aab32f745909b31d7a216ec2e.bindTooltip(
+                `<div>
+                     Museo del Prado
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_99efd9a885f2910ec764923608d16668 = L.featureGroup(
+                {}
+            ).addTo(map_499206ec6d64eac8015e88390cc58669);
+        
+    
+            var marker_75be89d0cb5c60bce67d46d44c137e7d = L.marker(
+                [40.4130937, -3.7084021],
+                {}
+            ).addTo(feature_group_99efd9a885f2910ec764923608d16668);
+        
+    
+            var icon_3c24a5f097aaafe9cd33a56647825a1e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_75be89d0cb5c60bce67d46d44c137e7d.setIcon(icon_3c24a5f097aaafe9cd33a56647825a1e);
+        
+    
+        var popup_1897ce381eca0f77d42df3cc78b23cbe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32089a5f02c74002952b0035653bb62c = $(`<div id="html_32089a5f02c74002952b0035653bb62c" style="width: 100.0%; height: 100.0%;"><b>Posada de la Villa</b><br>~9 min walk from hotel</div>`)[0];
+            popup_1897ce381eca0f77d42df3cc78b23cbe.setContent(html_32089a5f02c74002952b0035653bb62c);
+        
+
+        marker_75be89d0cb5c60bce67d46d44c137e7d.bindPopup(popup_1897ce381eca0f77d42df3cc78b23cbe)
+        ;
+
+        
+    
+    
+            marker_75be89d0cb5c60bce67d46d44c137e7d.bindTooltip(
+                `<div>
+                     Posada de la Villa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bd37c7847f4ee84dc15d44bf3b2227dd = L.marker(
+                [40.41402, -3.708136],
+                {}
+            ).addTo(feature_group_99efd9a885f2910ec764923608d16668);
+        
+    
+            var icon_9026a11362a36cf0bcf88d9250f33d4a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_bd37c7847f4ee84dc15d44bf3b2227dd.setIcon(icon_9026a11362a36cf0bcf88d9250f33d4a);
+        
+    
+        var popup_bd7963504dd450c6d1538fe81b4913f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3084beb685061938799570efa0ce2acf = $(`<div id="html_3084beb685061938799570efa0ce2acf" style="width: 100.0%; height: 100.0%;"><b>Restaurante Botín</b><br>~8 min walk from hotel</div>`)[0];
+            popup_bd7963504dd450c6d1538fe81b4913f8.setContent(html_3084beb685061938799570efa0ce2acf);
+        
+
+        marker_bd37c7847f4ee84dc15d44bf3b2227dd.bindPopup(popup_bd7963504dd450c6d1538fe81b4913f8)
+        ;
+
+        
+    
+    
+            marker_bd37c7847f4ee84dc15d44bf3b2227dd.bindTooltip(
+                `<div>
+                     Restaurante Botín
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_50a44ad7b2ecb5e33d5be08804a0f546 = L.marker(
+                [40.42766, -3.68423],
+                {}
+            ).addTo(feature_group_99efd9a885f2910ec764923608d16668);
+        
+    
+            var icon_8121d2b14e246bf775efd5e8f6829346 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_50a44ad7b2ecb5e33d5be08804a0f546.setIcon(icon_8121d2b14e246bf775efd5e8f6829346);
+        
+    
+        var popup_eae8f46ea9ad3a2b54fb7faffc943bf1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_378c0c5320eeca0c480e1563d51bc67f = $(`<div id="html_378c0c5320eeca0c480e1563d51bc67f" style="width: 100.0%; height: 100.0%;"><b>Ten Con Ten</b><br>~30 min walk from hotel</div>`)[0];
+            popup_eae8f46ea9ad3a2b54fb7faffc943bf1.setContent(html_378c0c5320eeca0c480e1563d51bc67f);
+        
+
+        marker_50a44ad7b2ecb5e33d5be08804a0f546.bindPopup(popup_eae8f46ea9ad3a2b54fb7faffc943bf1)
+        ;
+
+        
+    
+    
+            marker_50a44ad7b2ecb5e33d5be08804a0f546.bindTooltip(
+                `<div>
+                     Ten Con Ten
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c3c2fb9518b565677ec92f6ad755c96c = L.marker(
+                [40.4139, -3.709],
+                {}
+            ).addTo(feature_group_99efd9a885f2910ec764923608d16668);
+        
+    
+            var icon_9c77411c600fde2d283b12a221410c26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c3c2fb9518b565677ec92f6ad755c96c.setIcon(icon_9c77411c600fde2d283b12a221410c26);
+        
+    
+        var popup_677c2a2920b55c05e5a47099f0a3c30c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9553f21e23b632484594e660f9d718c5 = $(`<div id="html_9553f21e23b632484594e660f9d718c5" style="width: 100.0%; height: 100.0%;"><b>Astor Gastro</b><br>~8 min walk from hotel</div>`)[0];
+            popup_677c2a2920b55c05e5a47099f0a3c30c.setContent(html_9553f21e23b632484594e660f9d718c5);
+        
+
+        marker_c3c2fb9518b565677ec92f6ad755c96c.bindPopup(popup_677c2a2920b55c05e5a47099f0a3c30c)
+        ;
+
+        
+    
+    
+            marker_c3c2fb9518b565677ec92f6ad755c96c.bindTooltip(
+                `<div>
+                     Astor Gastro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2715627613c67e3d5ac2f77e60493bf2 = L.marker(
+                [40.433, -3.695],
+                {}
+            ).addTo(feature_group_99efd9a885f2910ec764923608d16668);
+        
+    
+            var icon_f57a37972d60017e3dafe9aaf669dfe7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2715627613c67e3d5ac2f77e60493bf2.setIcon(icon_f57a37972d60017e3dafe9aaf669dfe7);
+        
+    
+        var popup_498e7e11e063fdd5b6a6b4b796c73729 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15caa6050bcc632b9febe0545e9f4bae = $(`<div id="html_15caa6050bcc632b9febe0545e9f4bae" style="width: 100.0%; height: 100.0%;"><b>Welkome Club</b><br>~25 min walk from hotel</div>`)[0];
+            popup_498e7e11e063fdd5b6a6b4b796c73729.setContent(html_15caa6050bcc632b9febe0545e9f4bae);
+        
+
+        marker_2715627613c67e3d5ac2f77e60493bf2.bindPopup(popup_498e7e11e063fdd5b6a6b4b796c73729)
+        ;
+
+        
+    
+    
+            marker_2715627613c67e3d5ac2f77e60493bf2.bindTooltip(
+                `<div>
+                     Welkome Club
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3f7e257d107c7605376640c6a9a843bf = L.marker(
+                [40.413, -3.7088],
+                {}
+            ).addTo(feature_group_99efd9a885f2910ec764923608d16668);
+        
+    
+            var icon_358c6fa4279b5eb6c4eb89640ad09e2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3f7e257d107c7605376640c6a9a843bf.setIcon(icon_358c6fa4279b5eb6c4eb89640ad09e2a);
+        
+    
+        var popup_65670432fc6ea323e1918c2a8753b45e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30aa997f3a281849bde99e5d310fa61b = $(`<div id="html_30aa997f3a281849bde99e5d310fa61b" style="width: 100.0%; height: 100.0%;"><b>Muniz</b><br>~9 min walk from hotel</div>`)[0];
+            popup_65670432fc6ea323e1918c2a8753b45e.setContent(html_30aa997f3a281849bde99e5d310fa61b);
+        
+
+        marker_3f7e257d107c7605376640c6a9a843bf.bindPopup(popup_65670432fc6ea323e1918c2a8753b45e)
+        ;
+
+        
+    
+    
+            marker_3f7e257d107c7605376640c6a9a843bf.bindTooltip(
+                `<div>
+                     Muniz
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dcf0b60fdbdbab32d95a375a9d2e2118 = L.marker(
+                [40.4202, -3.7054],
+                {}
+            ).addTo(feature_group_99efd9a885f2910ec764923608d16668);
+        
+    
+            var icon_00e89ff6cea8084fb7704d75e7ab6ae5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_dcf0b60fdbdbab32d95a375a9d2e2118.setIcon(icon_00e89ff6cea8084fb7704d75e7ab6ae5);
+        
+    
+        var popup_677244df29810eaa78a8658c90848f10 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ef78422f316e3892334dad451b61c22 = $(`<div id="html_8ef78422f316e3892334dad451b61c22" style="width: 100.0%; height: 100.0%;"><b>La Casa de la Abuela</b><br>~6 min walk from hotel</div>`)[0];
+            popup_677244df29810eaa78a8658c90848f10.setContent(html_8ef78422f316e3892334dad451b61c22);
+        
+
+        marker_dcf0b60fdbdbab32d95a375a9d2e2118.bindPopup(popup_677244df29810eaa78a8658c90848f10)
+        ;
+
+        
+    
+    
+            marker_dcf0b60fdbdbab32d95a375a9d2e2118.bindTooltip(
+                `<div>
+                     La Casa de la Abuela
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69e186f17dd629afa948d11161423370 = L.marker(
+                [40.4258, -3.6932],
+                {}
+            ).addTo(feature_group_99efd9a885f2910ec764923608d16668);
+        
+    
+            var icon_03d25634b5e5bdf70c66792e4f869e13 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_69e186f17dd629afa948d11161423370.setIcon(icon_03d25634b5e5bdf70c66792e4f869e13);
+        
+    
+        var popup_1906d1878c26694760a52f53106fbe21 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e9f7295745e72551f47363c966926a1 = $(`<div id="html_7e9f7295745e72551f47363c966926a1" style="width: 100.0%; height: 100.0%;"><b>La Buena Vida</b><br>~20 min walk from hotel</div>`)[0];
+            popup_1906d1878c26694760a52f53106fbe21.setContent(html_7e9f7295745e72551f47363c966926a1);
+        
+
+        marker_69e186f17dd629afa948d11161423370.bindPopup(popup_1906d1878c26694760a52f53106fbe21)
+        ;
+
+        
+    
+    
+            marker_69e186f17dd629afa948d11161423370.bindTooltip(
+                `<div>
+                     La Buena Vida
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_f07e9fae4131df8491c0c91387ea2dbf = L.featureGroup(
+                {}
+            ).addTo(map_499206ec6d64eac8015e88390cc58669);
+        
+    
+            var marker_58c062f611c8e9d4f13133e591ac17d1 = L.marker(
+                [40.4234, -3.7076],
+                {}
+            ).addTo(feature_group_f07e9fae4131df8491c0c91387ea2dbf);
+        
+    
+            var icon_6aca5a574aaeacf56e847ab4262dceba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_58c062f611c8e9d4f13133e591ac17d1.setIcon(icon_6aca5a574aaeacf56e847ab4262dceba);
+        
+    
+        var popup_a571f01c2510ab6fa3c0f9a6b568337e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb1c0bbabfb13cbbd9e8872f6d44dc36 = $(`<div id="html_fb1c0bbabfb13cbbd9e8872f6d44dc36" style="width: 100.0%; height: 100.0%;"><b>Naji Café</b><br>~7 min walk from hotel</div>`)[0];
+            popup_a571f01c2510ab6fa3c0f9a6b568337e.setContent(html_fb1c0bbabfb13cbbd9e8872f6d44dc36);
+        
+
+        marker_58c062f611c8e9d4f13133e591ac17d1.bindPopup(popup_a571f01c2510ab6fa3c0f9a6b568337e)
+        ;
+
+        
+    
+    
+            marker_58c062f611c8e9d4f13133e591ac17d1.bindTooltip(
+                `<div>
+                     Naji Café
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e2806d54782c59c0aed563083eb9474 = L.marker(
+                [40.4246, -3.6991],
+                {}
+            ).addTo(feature_group_f07e9fae4131df8491c0c91387ea2dbf);
+        
+    
+            var icon_44d06d9f136d7e6750465b7e851b8756 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_1e2806d54782c59c0aed563083eb9474.setIcon(icon_44d06d9f136d7e6750465b7e851b8756);
+        
+    
+        var popup_9959edccb71ce2c2c6ceda642892db66 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2f7f8ca0b0200416125036371723ae0 = $(`<div id="html_e2f7f8ca0b0200416125036371723ae0" style="width: 100.0%; height: 100.0%;"><b>Café Osom</b><br>~14 min walk from hotel</div>`)[0];
+            popup_9959edccb71ce2c2c6ceda642892db66.setContent(html_e2f7f8ca0b0200416125036371723ae0);
+        
+
+        marker_1e2806d54782c59c0aed563083eb9474.bindPopup(popup_9959edccb71ce2c2c6ceda642892db66)
+        ;
+
+        
+    
+    
+            marker_1e2806d54782c59c0aed563083eb9474.bindTooltip(
+                `<div>
+                     Café Osom
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fef626800ba11296e008ef51807a9fcd = L.marker(
+                [40.4252, -3.7077],
+                {}
+            ).addTo(feature_group_f07e9fae4131df8491c0c91387ea2dbf);
+        
+    
+            var icon_80761b2b0fee5dee731d2dc8e6365e0d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_fef626800ba11296e008ef51807a9fcd.setIcon(icon_80761b2b0fee5dee731d2dc8e6365e0d);
+        
+    
+        var popup_4b7590514308870fe5de30fc94cec60a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dcd54fa9c4225b64d014666dc8d17876 = $(`<div id="html_dcd54fa9c4225b64d014666dc8d17876" style="width: 100.0%; height: 100.0%;"><b>Hanso Café</b><br>~9 min walk from hotel</div>`)[0];
+            popup_4b7590514308870fe5de30fc94cec60a.setContent(html_dcd54fa9c4225b64d014666dc8d17876);
+        
+
+        marker_fef626800ba11296e008ef51807a9fcd.bindPopup(popup_4b7590514308870fe5de30fc94cec60a)
+        ;
+
+        
+    
+    
+            marker_fef626800ba11296e008ef51807a9fcd.bindTooltip(
+                `<div>
+                     Hanso Café
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c9a95f006e604de2fc7188148da84cdf = L.marker(
+                [40.4217, -3.7002],
+                {}
+            ).addTo(feature_group_f07e9fae4131df8491c0c91387ea2dbf);
+        
+    
+            var icon_c4d0cee3e604a362c5d3d201d50abefc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_c9a95f006e604de2fc7188148da84cdf.setIcon(icon_c4d0cee3e604a362c5d3d201d50abefc);
+        
+    
+        var popup_f9aa3bb5af1e073b78643e8e36e8603e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d7bab93c5e9016f55db1a19c1a5290e9 = $(`<div id="html_d7bab93c5e9016f55db1a19c1a5290e9" style="width: 100.0%; height: 100.0%;"><b>Pan y Pepinillos</b><br>~12 min walk from hotel</div>`)[0];
+            popup_f9aa3bb5af1e073b78643e8e36e8603e.setContent(html_d7bab93c5e9016f55db1a19c1a5290e9);
+        
+
+        marker_c9a95f006e604de2fc7188148da84cdf.bindPopup(popup_f9aa3bb5af1e073b78643e8e36e8603e)
+        ;
+
+        
+    
+    
+            marker_c9a95f006e604de2fc7188148da84cdf.bindTooltip(
+                `<div>
+                     Pan y Pepinillos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d4d8c1c66772c2c20abd15d83fb3412 = L.marker(
+                [40.4264, -3.7005],
+                {}
+            ).addTo(feature_group_f07e9fae4131df8491c0c91387ea2dbf);
+        
+    
+            var icon_a8b8ec0378a5c7353d2ea8675339f08c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_3d4d8c1c66772c2c20abd15d83fb3412.setIcon(icon_a8b8ec0378a5c7353d2ea8675339f08c);
+        
+    
+        var popup_ed94860a0aadb5b5fb93b3cd95756e8c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5145769087f3720c319b6dcf1f25a68e = $(`<div id="html_5145769087f3720c319b6dcf1f25a68e" style="width: 100.0%; height: 100.0%;"><b>Umami Coffee</b><br>~14 min walk from hotel</div>`)[0];
+            popup_ed94860a0aadb5b5fb93b3cd95756e8c.setContent(html_5145769087f3720c319b6dcf1f25a68e);
+        
+
+        marker_3d4d8c1c66772c2c20abd15d83fb3412.bindPopup(popup_ed94860a0aadb5b5fb93b3cd95756e8c)
+        ;
+
+        
+    
+    
+            marker_3d4d8c1c66772c2c20abd15d83fb3412.bindTooltip(
+                `<div>
+                     Umami Coffee
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_a343ba79082dd4708874f36257e69166 = L.featureGroup(
+                {}
+            ).addTo(map_499206ec6d64eac8015e88390cc58669);
+        
+    
+            var marker_d0db736c8e1c288fae6bd2310fcd9bb7 = L.marker(
+                [40.4169, -3.7073],
+                {}
+            ).addTo(feature_group_a343ba79082dd4708874f36257e69166);
+        
+    
+            var icon_0749187084a98d389144b2f10e26c354 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ice-cream", "iconColor": "white", "markerColor": "brown", "prefix": "fa"}
+            );
+            marker_d0db736c8e1c288fae6bd2310fcd9bb7.setIcon(icon_0749187084a98d389144b2f10e26c354);
+        
+    
+        var popup_90702340ff0a1371b3c78e4420f04e67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72ca45aed9de27ff05e024ddb65d23c8 = $(`<div id="html_72ca45aed9de27ff05e024ddb65d23c8" style="width: 100.0%; height: 100.0%;"><b>Chocolatería San Ginés</b><br>~5 min walk from hotel</div>`)[0];
+            popup_90702340ff0a1371b3c78e4420f04e67.setContent(html_72ca45aed9de27ff05e024ddb65d23c8);
+        
+
+        marker_d0db736c8e1c288fae6bd2310fcd9bb7.bindPopup(popup_90702340ff0a1371b3c78e4420f04e67)
+        ;
+
+        
+    
+    
+            marker_d0db736c8e1c288fae6bd2310fcd9bb7.bindTooltip(
+                `<div>
+                     Chocolatería San Ginés
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c69c50af6ced986dd57ffa0be0324e11 = L.marker(
+                [40.4159, -3.7067],
+                {}
+            ).addTo(feature_group_a343ba79082dd4708874f36257e69166);
+        
+    
+            var icon_951896c27eb9c1f61b0e632c3e4742ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ice-cream", "iconColor": "white", "markerColor": "brown", "prefix": "fa"}
+            );
+            marker_c69c50af6ced986dd57ffa0be0324e11.setIcon(icon_951896c27eb9c1f61b0e632c3e4742ef);
+        
+    
+        var popup_6fc0a2c16208e743ea3d6fed46f01752 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f1d4555f1eab81f8998a80b7885b24e = $(`<div id="html_5f1d4555f1eab81f8998a80b7885b24e" style="width: 100.0%; height: 100.0%;"><b>Chocolate Madrid</b><br>~7 min walk from hotel</div>`)[0];
+            popup_6fc0a2c16208e743ea3d6fed46f01752.setContent(html_5f1d4555f1eab81f8998a80b7885b24e);
+        
+
+        marker_c69c50af6ced986dd57ffa0be0324e11.bindPopup(popup_6fc0a2c16208e743ea3d6fed46f01752)
+        ;
+
+        
+    
+    
+            marker_c69c50af6ced986dd57ffa0be0324e11.bindTooltip(
+                `<div>
+                     Chocolate Madrid
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_45fab3d69dfa8083f2a5ebfd16dade98 = L.featureGroup(
+                {}
+            ).addTo(map_499206ec6d64eac8015e88390cc58669);
+        
+    
+            var marker_a1449d6cf6bf53f940a6f4c23ea4af6e = L.marker(
+                [40.4225, -3.7024],
+                {}
+            ).addTo(feature_group_45fab3d69dfa8083f2a5ebfd16dade98);
+        
+    
+            var icon_879f529612ce13a9b65178f71ebf9e1f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "shopping-bag", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_a1449d6cf6bf53f940a6f4c23ea4af6e.setIcon(icon_879f529612ce13a9b65178f71ebf9e1f);
+        
+    
+        var popup_7a325c2f50575182738e8c69e92e21e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee223366aab6298fb7219e00bd3e4d38 = $(`<div id="html_ee223366aab6298fb7219e00bd3e4d38" style="width: 100.0%; height: 100.0%;"><b>Natura</b><br>~10 min walk from hotel</div>`)[0];
+            popup_7a325c2f50575182738e8c69e92e21e8.setContent(html_ee223366aab6298fb7219e00bd3e4d38);
+        
+
+        marker_a1449d6cf6bf53f940a6f4c23ea4af6e.bindPopup(popup_7a325c2f50575182738e8c69e92e21e8)
+        ;
+
+        
+    
+    
+            marker_a1449d6cf6bf53f940a6f4c23ea4af6e.bindTooltip(
+                `<div>
+                     Natura
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3426bfc74f66a9e7a22438421a8c82bf = L.marker(
+                [40.4235, -3.6997],
+                {}
+            ).addTo(feature_group_45fab3d69dfa8083f2a5ebfd16dade98);
+        
+    
+            var icon_1a130da0b881f5f0cefa7991df87ca6f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "shopping-bag", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_3426bfc74f66a9e7a22438421a8c82bf.setIcon(icon_1a130da0b881f5f0cefa7991df87ca6f);
+        
+    
+        var popup_060ae436e6c63ea25127e8d8af3eb3d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f09ff04524cf5705438ab3591ccb6e8f = $(`<div id="html_f09ff04524cf5705438ab3591ccb6e8f" style="width: 100.0%; height: 100.0%;"><b>Mercado de San Antón</b><br>~13 min walk from hotel</div>`)[0];
+            popup_060ae436e6c63ea25127e8d8af3eb3d6.setContent(html_f09ff04524cf5705438ab3591ccb6e8f);
+        
+
+        marker_3426bfc74f66a9e7a22438421a8c82bf.bindPopup(popup_060ae436e6c63ea25127e8d8af3eb3d6)
+        ;
+
+        
+    
+    
+            marker_3426bfc74f66a9e7a22438421a8c82bf.bindTooltip(
+                `<div>
+                     Mercado de San Antón
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_6dabd6419ffe9c659c1147bc2721d28f = L.featureGroup(
+                {}
+            ).addTo(map_499206ec6d64eac8015e88390cc58669);
+        
+    
+            var marker_9127a1cf85cb8ddf7d6a3a21618c4f77 = L.marker(
+                [40.4138, -3.6921],
+                {}
+            ).addTo(feature_group_6dabd6419ffe9c659c1147bc2721d28f);
+        
+    
+            var icon_31464fb9d7fbbf138ec5d7ba32210f85 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_9127a1cf85cb8ddf7d6a3a21618c4f77.setIcon(icon_31464fb9d7fbbf138ec5d7ba32210f85);
+        
+    
+        var popup_39e6c4f3368412b812571a5a265215b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c737a79b263b040155160456138e463 = $(`<div id="html_8c737a79b263b040155160456138e463" style="width: 100.0%; height: 100.0%;"><b>🚌 Stop 1</b><br>Museo del Prado<br>~21 min walk from hotel</div>`)[0];
+            popup_39e6c4f3368412b812571a5a265215b4.setContent(html_8c737a79b263b040155160456138e463);
+        
+
+        marker_9127a1cf85cb8ddf7d6a3a21618c4f77.bindPopup(popup_39e6c4f3368412b812571a5a265215b4)
+        ;
+
+        
+    
+    
+            marker_9127a1cf85cb8ddf7d6a3a21618c4f77.bindTooltip(
+                `<div>
+                     🚌 Stop 1 – Museo del Prado
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35cf7433506b4dbbd7892d5b8586a6eb = L.marker(
+                [40.4206, -3.6884],
+                {}
+            ).addTo(feature_group_6dabd6419ffe9c659c1147bc2721d28f);
+        
+    
+            var icon_211d4d405a84543af32fd6b027abfae6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_35cf7433506b4dbbd7892d5b8586a6eb.setIcon(icon_211d4d405a84543af32fd6b027abfae6);
+        
+    
+        var popup_c713bf218fe1e9c968b493db88f28e0b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3831109183338a4f0eb9b4898d521c2 = $(`<div id="html_c3831109183338a4f0eb9b4898d521c2" style="width: 100.0%; height: 100.0%;"><b>🚌 Stop 2</b><br>Puerta de Alcalá<br>~23 min walk from hotel</div>`)[0];
+            popup_c713bf218fe1e9c968b493db88f28e0b.setContent(html_c3831109183338a4f0eb9b4898d521c2);
+        
+
+        marker_35cf7433506b4dbbd7892d5b8586a6eb.bindPopup(popup_c713bf218fe1e9c968b493db88f28e0b)
+        ;
+
+        
+    
+    
+            marker_35cf7433506b4dbbd7892d5b8586a6eb.bindTooltip(
+                `<div>
+                     🚌 Stop 2 – Puerta de Alcalá
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_980645d2817ec96e73b73bc1a1cc4766 = L.marker(
+                [40.428, -3.683],
+                {}
+            ).addTo(feature_group_6dabd6419ffe9c659c1147bc2721d28f);
+        
+    
+            var icon_46d1fa49a3ea672e65bd75c46d3d6c13 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_980645d2817ec96e73b73bc1a1cc4766.setIcon(icon_46d1fa49a3ea672e65bd75c46d3d6c13);
+        
+    
+        var popup_a761e7a73c2d144f0fec92a790cc28b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d8f79c2c0d21330be19592a2ee7675d = $(`<div id="html_0d8f79c2c0d21330be19592a2ee7675d" style="width: 100.0%; height: 100.0%;"><b>🚌 Stop 3</b><br>Barrio de Salamanca<br>~31 min walk from hotel</div>`)[0];
+            popup_a761e7a73c2d144f0fec92a790cc28b3.setContent(html_0d8f79c2c0d21330be19592a2ee7675d);
+        
+
+        marker_980645d2817ec96e73b73bc1a1cc4766.bindPopup(popup_a761e7a73c2d144f0fec92a790cc28b3)
+        ;
+
+        
+    
+    
+            marker_980645d2817ec96e73b73bc1a1cc4766.bindTooltip(
+                `<div>
+                     🚌 Stop 3 – Barrio de Salamanca
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_607d6e35b512a9304f35b92201547785 = L.marker(
+                [40.4237, -3.693],
+                {}
+            ).addTo(feature_group_6dabd6419ffe9c659c1147bc2721d28f);
+        
+    
+            var icon_653b4e94524e14ff18222dfd25fe5cb0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_607d6e35b512a9304f35b92201547785.setIcon(icon_653b4e94524e14ff18222dfd25fe5cb0);
+        
+    
+        var popup_7e0bea05151ded17a04053872fa198fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d1d8d458ea99674f2cc79b6cb07a9f81 = $(`<div id="html_d1d8d458ea99674f2cc79b6cb07a9f81" style="width: 100.0%; height: 100.0%;"><b>🚌 Stop 4</b><br>Plaza de Colón<br>~19 min walk from hotel</div>`)[0];
+            popup_7e0bea05151ded17a04053872fa198fc.setContent(html_d1d8d458ea99674f2cc79b6cb07a9f81);
+        
+
+        marker_607d6e35b512a9304f35b92201547785.bindPopup(popup_7e0bea05151ded17a04053872fa198fc)
+        ;
+
+        
+    
+    
+            marker_607d6e35b512a9304f35b92201547785.bindTooltip(
+                `<div>
+                     🚌 Stop 4 – Plaza de Colón
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c627488fc13b55e60fd2f723a9f400b2 = L.marker(
+                [40.419, -3.6938],
+                {}
+            ).addTo(feature_group_6dabd6419ffe9c659c1147bc2721d28f);
+        
+    
+            var icon_0f61ace9ce8258b762bfe4b4e63534a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_c627488fc13b55e60fd2f723a9f400b2.setIcon(icon_0f61ace9ce8258b762bfe4b4e63534a6);
+        
+    
+        var popup_be6e69a87ef85be40153ce7438af2910 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50e02d8a7796c57fef364104711272d9 = $(`<div id="html_50e02d8a7796c57fef364104711272d9" style="width: 100.0%; height: 100.0%;"><b>🚌 Stop 5</b><br>Plaza de Cibeles<br>~18 min walk from hotel</div>`)[0];
+            popup_be6e69a87ef85be40153ce7438af2910.setContent(html_50e02d8a7796c57fef364104711272d9);
+        
+
+        marker_c627488fc13b55e60fd2f723a9f400b2.bindPopup(popup_be6e69a87ef85be40153ce7438af2910)
+        ;
+
+        
+    
+    
+            marker_c627488fc13b55e60fd2f723a9f400b2.bindTooltip(
+                `<div>
+                     🚌 Stop 5 – Plaza de Cibeles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b5a3ec8c7d5f1395cc387994d10cb482 = L.marker(
+                [40.4209, -3.7055],
+                {}
+            ).addTo(feature_group_6dabd6419ffe9c659c1147bc2721d28f);
+        
+    
+            var icon_b332d052f3c479f68bed424cf9fd17cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b5a3ec8c7d5f1395cc387994d10cb482.setIcon(icon_b332d052f3c479f68bed424cf9fd17cb);
+        
+    
+        var popup_83cfb85e2a5f98a7a8b6052fb88ac752 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_810b0d35c6f8084ab1c70e653b6b04a9 = $(`<div id="html_810b0d35c6f8084ab1c70e653b6b04a9" style="width: 100.0%; height: 100.0%;"><b>🚌 Stop 6</b><br>Gran Vía / Callao<br>~6 min walk from hotel</div>`)[0];
+            popup_83cfb85e2a5f98a7a8b6052fb88ac752.setContent(html_810b0d35c6f8084ab1c70e653b6b04a9);
+        
+
+        marker_b5a3ec8c7d5f1395cc387994d10cb482.bindPopup(popup_83cfb85e2a5f98a7a8b6052fb88ac752)
+        ;
+
+        
+    
+    
+            marker_b5a3ec8c7d5f1395cc387994d10cb482.bindTooltip(
+                `<div>
+                     🚌 Stop 6 – Gran Vía / Callao
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_61d853b4e977441a756757f6a66094b4 = L.marker(
+                [40.4253, -3.7127],
+                {}
+            ).addTo(feature_group_6dabd6419ffe9c659c1147bc2721d28f);
+        
+    
+            var icon_dafaac55e95577d432ec771ade880d80 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_61d853b4e977441a756757f6a66094b4.setIcon(icon_dafaac55e95577d432ec771ade880d80);
+        
+    
+        var popup_24448f35d26ef1578b4ddfd08f42ef9a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_afc4822c3c160601f62590fecd2d59ca = $(`<div id="html_afc4822c3c160601f62590fecd2d59ca" style="width: 100.0%; height: 100.0%;"><b>🚌 Stop 7</b><br>Plaza de España<br>~8 min walk from hotel</div>`)[0];
+            popup_24448f35d26ef1578b4ddfd08f42ef9a.setContent(html_afc4822c3c160601f62590fecd2d59ca);
+        
+
+        marker_61d853b4e977441a756757f6a66094b4.bindPopup(popup_24448f35d26ef1578b4ddfd08f42ef9a)
+        ;
+
+        
+    
+    
+            marker_61d853b4e977441a756757f6a66094b4.bindTooltip(
+                `<div>
+                     🚌 Stop 7 – Plaza de España
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ac6b646347a7f311e134d40d4994d7e8 = L.marker(
+                [40.4211, -3.7173],
+                {}
+            ).addTo(feature_group_6dabd6419ffe9c659c1147bc2721d28f);
+        
+    
+            var icon_db0980e246ad4be84c2d046a10dd68ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_ac6b646347a7f311e134d40d4994d7e8.setIcon(icon_db0980e246ad4be84c2d046a10dd68ed);
+        
+    
+        var popup_30da9f4b5e7a88c99a5597f327f93593 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec6b0319abd182268f114ad5a3137da1 = $(`<div id="html_ec6b0319abd182268f114ad5a3137da1" style="width: 100.0%; height: 100.0%;"><b>🚌 Stop 8</b><br>Templo de Debod<br>~7 min walk from hotel</div>`)[0];
+            popup_30da9f4b5e7a88c99a5597f327f93593.setContent(html_ec6b0319abd182268f114ad5a3137da1);
+        
+
+        marker_ac6b646347a7f311e134d40d4994d7e8.bindPopup(popup_30da9f4b5e7a88c99a5597f327f93593)
+        ;
+
+        
+    
+    
+            marker_ac6b646347a7f311e134d40d4994d7e8.bindTooltip(
+                `<div>
+                     🚌 Stop 8 – Templo de Debod
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_868f066b3a9428fd44da7aee50719028 = L.marker(
+                [40.4188, -3.7141],
+                {}
+            ).addTo(feature_group_6dabd6419ffe9c659c1147bc2721d28f);
+        
+    
+            var icon_60e32c7cc01a2af5557f40d2c24da425 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_868f066b3a9428fd44da7aee50719028.setIcon(icon_60e32c7cc01a2af5557f40d2c24da425);
+        
+    
+        var popup_8badc71d5103ff909b3f93132b033a6b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e063ac2c36448fa87f18e24064fde69 = $(`<div id="html_6e063ac2c36448fa87f18e24064fde69" style="width: 100.0%; height: 100.0%;"><b>🚌 Stop 9</b><br>Puerta de San Vicente / Royal Palace<br>~3 min walk from hotel</div>`)[0];
+            popup_8badc71d5103ff909b3f93132b033a6b.setContent(html_6e063ac2c36448fa87f18e24064fde69);
+        
+
+        marker_868f066b3a9428fd44da7aee50719028.bindPopup(popup_8badc71d5103ff909b3f93132b033a6b)
+        ;
+
+        
+    
+    
+            marker_868f066b3a9428fd44da7aee50719028.bindTooltip(
+                `<div>
+                     🚌 Stop 9 – Puerta de San Vicente / Royal Palace
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5596db559d3b3cb1938bb7014f245a17 = L.marker(
+                [40.4057, -3.7136],
+                {}
+            ).addTo(feature_group_6dabd6419ffe9c659c1147bc2721d28f);
+        
+    
+            var icon_0990b58d663db9e5124dc675f186fd5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_5596db559d3b3cb1938bb7014f245a17.setIcon(icon_0990b58d663db9e5124dc675f186fd5c);
+        
+    
+        var popup_6712f16d4f303c9fdff2f9ed696f1f65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9454f4fd758c015f5c4ba3c717c54797 = $(`<div id="html_9454f4fd758c015f5c4ba3c717c54797" style="width: 100.0%; height: 100.0%;"><b>🚌 Stop 10</b><br>Puerta de Toledo<br>~18 min walk from hotel</div>`)[0];
+            popup_6712f16d4f303c9fdff2f9ed696f1f65.setContent(html_9454f4fd758c015f5c4ba3c717c54797);
+        
+
+        marker_5596db559d3b3cb1938bb7014f245a17.bindPopup(popup_6712f16d4f303c9fdff2f9ed696f1f65)
+        ;
+
+        
+    
+    
+            marker_5596db559d3b3cb1938bb7014f245a17.bindTooltip(
+                `<div>
+                     🚌 Stop 10 – Puerta de Toledo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_87bbdc1a36082013ba9be11619c0c2a9 = L.marker(
+                [40.4155, -3.7075],
+                {}
+            ).addTo(feature_group_6dabd6419ffe9c659c1147bc2721d28f);
+        
+    
+            var icon_81c9f8b2cc06fbb3feaee4ce25865725 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_87bbdc1a36082013ba9be11619c0c2a9.setIcon(icon_81c9f8b2cc06fbb3feaee4ce25865725);
+        
+    
+        var popup_a64ab05e0ac49775e5105a6ff9c88150 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35094f90fc276978cc217d2b0ae67eb2 = $(`<div id="html_35094f90fc276978cc217d2b0ae67eb2" style="width: 100.0%; height: 100.0%;"><b>🚌 Stop 11</b><br>Colegiata / Plaza Mayor<br>~6 min walk from hotel</div>`)[0];
+            popup_a64ab05e0ac49775e5105a6ff9c88150.setContent(html_35094f90fc276978cc217d2b0ae67eb2);
+        
+
+        marker_87bbdc1a36082013ba9be11619c0c2a9.bindPopup(popup_a64ab05e0ac49775e5105a6ff9c88150)
+        ;
+
+        
+    
+    
+            marker_87bbdc1a36082013ba9be11619c0c2a9.bindTooltip(
+                `<div>
+                     🚌 Stop 11 – Colegiata / Plaza Mayor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_67f2bdffd035f25f9fb07b1a718c0f4c = L.marker(
+                [40.4169, -3.7035],
+                {}
+            ).addTo(feature_group_6dabd6419ffe9c659c1147bc2721d28f);
+        
+    
+            var icon_e34a9246dc8da16f768dfa2b3395e644 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_67f2bdffd035f25f9fb07b1a718c0f4c.setIcon(icon_e34a9246dc8da16f768dfa2b3395e644);
+        
+    
+        var popup_985b306af8c8008f93e290cb8d99c248 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6e7f719f4abb5f476be8593a25d7968 = $(`<div id="html_e6e7f719f4abb5f476be8593a25d7968" style="width: 100.0%; height: 100.0%;"><b>🚌 Stop 12</b><br>Puerta del Sol<br>~9 min walk from hotel</div>`)[0];
+            popup_985b306af8c8008f93e290cb8d99c248.setContent(html_e6e7f719f4abb5f476be8593a25d7968);
+        
+
+        marker_67f2bdffd035f25f9fb07b1a718c0f4c.bindPopup(popup_985b306af8c8008f93e290cb8d99c248)
+        ;
+
+        
+    
+    
+            marker_67f2bdffd035f25f9fb07b1a718c0f4c.bindTooltip(
+                `<div>
+                     🚌 Stop 12 – Puerta del Sol
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aee9d655b30d0b81b81c6af40f270818 = L.marker(
+                [40.4144, -3.6994],
+                {}
+            ).addTo(feature_group_6dabd6419ffe9c659c1147bc2721d28f);
+        
+    
+            var icon_f3d6b3451b7cc60650db8e5a27cc3e41 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_aee9d655b30d0b81b81c6af40f270818.setIcon(icon_f3d6b3451b7cc60650db8e5a27cc3e41);
+        
+    
+        var popup_319cb2d89c7e84c54ad9bb49c9012f07 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_43fcba9313166c9d465b7dc2a86b545e = $(`<div id="html_43fcba9313166c9d465b7dc2a86b545e" style="width: 100.0%; height: 100.0%;"><b>🚌 Stop 13</b><br>Plaza de las Cortes<br>~14 min walk from hotel</div>`)[0];
+            popup_319cb2d89c7e84c54ad9bb49c9012f07.setContent(html_43fcba9313166c9d465b7dc2a86b545e);
+        
+
+        marker_aee9d655b30d0b81b81c6af40f270818.bindPopup(popup_319cb2d89c7e84c54ad9bb49c9012f07)
+        ;
+
+        
+    
+    
+            marker_aee9d655b30d0b81b81c6af40f270818.bindTooltip(
+                `<div>
+                     🚌 Stop 13 – Plaza de las Cortes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_802c2a2dc17eab2d9336b8803a179688 = L.marker(
+                [40.4138, -3.6921],
+                {}
+            ).addTo(feature_group_6dabd6419ffe9c659c1147bc2721d28f);
+        
+    
+            var icon_c0cb426169e176a4b3aca8bca0b0a08b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_802c2a2dc17eab2d9336b8803a179688.setIcon(icon_c0cb426169e176a4b3aca8bca0b0a08b);
+        
+    
+        var popup_63366785e4059b08a25c65b548693445 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ccac376ad9442e2df150c0cdedca79d = $(`<div id="html_0ccac376ad9442e2df150c0cdedca79d" style="width: 100.0%; height: 100.0%;"><b>🚌 Stop 14</b><br>Museo del Prado (return)<br>~21 min walk from hotel</div>`)[0];
+            popup_63366785e4059b08a25c65b548693445.setContent(html_0ccac376ad9442e2df150c0cdedca79d);
+        
+
+        marker_802c2a2dc17eab2d9336b8803a179688.bindPopup(popup_63366785e4059b08a25c65b548693445)
+        ;
+
+        
+    
+    
+            marker_802c2a2dc17eab2d9336b8803a179688.bindTooltip(
+                `<div>
+                     🚌 Stop 14 – Museo del Prado (return)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_48aefaa0c995c412ad6ec54a0c531d34 = L.polyline(
+                [[40.4138, -3.6921], [40.4206, -3.6884], [40.428, -3.683], [40.4237, -3.693], [40.419, -3.6938], [40.4209, -3.7055], [40.4253, -3.7127], [40.4211, -3.7173], [40.4188, -3.7141], [40.4057, -3.7136], [40.4155, -3.7075], [40.4169, -3.7035], [40.4144, -3.6994], [40.4138, -3.6921]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6dabd6419ffe9c659c1147bc2721d28f);
+        
+    
+            var feature_group_86360580511bacf561a1424d4d96a4cc = L.featureGroup(
+                {}
+            ).addTo(map_499206ec6d64eac8015e88390cc58669);
+        
+    
+            var marker_cf8f1d146e368a68f7f1a4348a61868b = L.marker(
+                [40.4148, -3.6885],
+                {}
+            ).addTo(feature_group_86360580511bacf561a1424d4d96a4cc);
+        
+    
+            var icon_04d1013bb8d5cdf017473af0910ae393 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_cf8f1d146e368a68f7f1a4348a61868b.setIcon(icon_04d1013bb8d5cdf017473af0910ae393);
+        
+    
+        var popup_641e365caa5d15708b08a6ad7a51d3ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3497ed1fc2c639c3a5ae612f70d1cb64 = $(`<div id="html_3497ed1fc2c639c3a5ae612f70d1cb64" style="width: 100.0%; height: 100.0%;"><b>🚌 Stop 1</b><br>Plaza Neptuno<br>~24 min walk from hotel</div>`)[0];
+            popup_641e365caa5d15708b08a6ad7a51d3ff.setContent(html_3497ed1fc2c639c3a5ae612f70d1cb64);
+        
+
+        marker_cf8f1d146e368a68f7f1a4348a61868b.bindPopup(popup_641e365caa5d15708b08a6ad7a51d3ff)
+        ;
+
+        
+    
+    
+            marker_cf8f1d146e368a68f7f1a4348a61868b.bindTooltip(
+                `<div>
+                     🚌 Stop 1 – Plaza Neptuno
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ff34d8e2609819aaa205c8eca0cbb6d = L.marker(
+                [40.419, -3.6938],
+                {}
+            ).addTo(feature_group_86360580511bacf561a1424d4d96a4cc);
+        
+    
+            var icon_2ab659e917147915500b712030e23409 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1ff34d8e2609819aaa205c8eca0cbb6d.setIcon(icon_2ab659e917147915500b712030e23409);
+        
+    
+        var popup_3ea3a9be89a00c33c787231583661878 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc4b4b731b972b38e2755207af274ced = $(`<div id="html_bc4b4b731b972b38e2755207af274ced" style="width: 100.0%; height: 100.0%;"><b>🚌 Stop 2</b><br>Plaza de Cibeles<br>~18 min walk from hotel</div>`)[0];
+            popup_3ea3a9be89a00c33c787231583661878.setContent(html_bc4b4b731b972b38e2755207af274ced);
+        
+
+        marker_1ff34d8e2609819aaa205c8eca0cbb6d.bindPopup(popup_3ea3a9be89a00c33c787231583661878)
+        ;
+
+        
+    
+    
+            marker_1ff34d8e2609819aaa205c8eca0cbb6d.bindTooltip(
+                `<div>
+                     🚌 Stop 2 – Plaza de Cibeles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ed87b0d2b54adb75aa1d1456c2e2763b = L.marker(
+                [40.4237, -3.693],
+                {}
+            ).addTo(feature_group_86360580511bacf561a1424d4d96a4cc);
+        
+    
+            var icon_580b799b08b9bac02c47bab5491a388b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ed87b0d2b54adb75aa1d1456c2e2763b.setIcon(icon_580b799b08b9bac02c47bab5491a388b);
+        
+    
+        var popup_580e0c7578d998eebd798b646d215472 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89b50a46a5bbe5bfebef477457344194 = $(`<div id="html_89b50a46a5bbe5bfebef477457344194" style="width: 100.0%; height: 100.0%;"><b>🚌 Stop 3</b><br>Plaza de Colón<br>~19 min walk from hotel</div>`)[0];
+            popup_580e0c7578d998eebd798b646d215472.setContent(html_89b50a46a5bbe5bfebef477457344194);
+        
+
+        marker_ed87b0d2b54adb75aa1d1456c2e2763b.bindPopup(popup_580e0c7578d998eebd798b646d215472)
+        ;
+
+        
+    
+    
+            marker_ed87b0d2b54adb75aa1d1456c2e2763b.bindTooltip(
+                `<div>
+                     🚌 Stop 3 – Plaza de Colón
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_af0c9ee91e6d00b6b7f957a8c6c218bd = L.marker(
+                [40.4219, -3.707],
+                {}
+            ).addTo(feature_group_86360580511bacf561a1424d4d96a4cc);
+        
+    
+            var icon_3b4107c850a0c52264c18da6f5ed36ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_af0c9ee91e6d00b6b7f957a8c6c218bd.setIcon(icon_3b4107c850a0c52264c18da6f5ed36ae);
+        
+    
+        var popup_07347f652bc19ddee3b7b3da18c23634 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c917b8fe9aff405008e73c491c537a6b = $(`<div id="html_c917b8fe9aff405008e73c491c537a6b" style="width: 100.0%; height: 100.0%;"><b>🚌 Stop 4</b><br>Museo de Esculturas<br>~5 min walk from hotel</div>`)[0];
+            popup_07347f652bc19ddee3b7b3da18c23634.setContent(html_c917b8fe9aff405008e73c491c537a6b);
+        
+
+        marker_af0c9ee91e6d00b6b7f957a8c6c218bd.bindPopup(popup_07347f652bc19ddee3b7b3da18c23634)
+        ;
+
+        
+    
+    
+            marker_af0c9ee91e6d00b6b7f957a8c6c218bd.bindTooltip(
+                `<div>
+                     🚌 Stop 4 – Museo de Esculturas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3f177e6e105349d75ad81698f87795a2 = L.marker(
+                [40.451, -3.688],
+                {}
+            ).addTo(feature_group_86360580511bacf561a1424d4d96a4cc);
+        
+    
+            var icon_46103368c05289b75d6d334d2e291b86 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3f177e6e105349d75ad81698f87795a2.setIcon(icon_46103368c05289b75d6d334d2e291b86);
+        
+    
+        var popup_176147a5fcd6e7326224ce62ec2effd9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4653dbf1f751bc010b6f5faaa55e3b84 = $(`<div id="html_4653dbf1f751bc010b6f5faaa55e3b84" style="width: 100.0%; height: 100.0%;"><b>🚌 Stop 5</b><br>Nuevos Ministerios<br>~48 min walk from hotel</div>`)[0];
+            popup_176147a5fcd6e7326224ce62ec2effd9.setContent(html_4653dbf1f751bc010b6f5faaa55e3b84);
+        
+
+        marker_3f177e6e105349d75ad81698f87795a2.bindPopup(popup_176147a5fcd6e7326224ce62ec2effd9)
+        ;
+
+        
+    
+    
+            marker_3f177e6e105349d75ad81698f87795a2.bindTooltip(
+                `<div>
+                     🚌 Stop 5 – Nuevos Ministerios
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b6f6ace2e3f5fd87e1b953cd04cadcb8 = L.marker(
+                [40.4531, -3.6883],
+                {}
+            ).addTo(feature_group_86360580511bacf561a1424d4d96a4cc);
+        
+    
+            var icon_c3a2c0d25b3d516f14a2e3a25c06563b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b6f6ace2e3f5fd87e1b953cd04cadcb8.setIcon(icon_c3a2c0d25b3d516f14a2e3a25c06563b);
+        
+    
+        var popup_c0ad5da397d754761a4b4286ad300611 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_987e088524f8a0c0799370e7988fe4bb = $(`<div id="html_987e088524f8a0c0799370e7988fe4bb" style="width: 100.0%; height: 100.0%;"><b>🚌 Stop 6</b><br>Santiago Bernabéu<br>~51 min walk from hotel</div>`)[0];
+            popup_c0ad5da397d754761a4b4286ad300611.setContent(html_987e088524f8a0c0799370e7988fe4bb);
+        
+
+        marker_b6f6ace2e3f5fd87e1b953cd04cadcb8.bindPopup(popup_c0ad5da397d754761a4b4286ad300611)
+        ;
+
+        
+    
+    
+            marker_b6f6ace2e3f5fd87e1b953cd04cadcb8.bindTooltip(
+                `<div>
+                     🚌 Stop 6 – Santiago Bernabéu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e39d28ae0416cb10295b04f4d73cd89 = L.marker(
+                [40.424, -3.703],
+                {}
+            ).addTo(feature_group_86360580511bacf561a1424d4d96a4cc);
+        
+    
+            var icon_2efa9dc39e55500af17ec08b86db2472 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6e39d28ae0416cb10295b04f4d73cd89.setIcon(icon_2efa9dc39e55500af17ec08b86db2472);
+        
+    
+        var popup_72588485b6acf7d53ca336b8ca87dd5d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2dd79e57b325aef7f1399b6ee141b87e = $(`<div id="html_2dd79e57b325aef7f1399b6ee141b87e" style="width: 100.0%; height: 100.0%;"><b>🚌 Stop 7</b><br>CSIC<br>~10 min walk from hotel</div>`)[0];
+            popup_72588485b6acf7d53ca336b8ca87dd5d.setContent(html_2dd79e57b325aef7f1399b6ee141b87e);
+        
+
+        marker_6e39d28ae0416cb10295b04f4d73cd89.bindPopup(popup_72588485b6acf7d53ca336b8ca87dd5d)
+        ;
+
+        
+    
+    
+            marker_6e39d28ae0416cb10295b04f4d73cd89.bindTooltip(
+                `<div>
+                     🚌 Stop 7 – CSIC
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6347e57f4222a626d919fa499fb2a2f2 = L.marker(
+                [40.4497, -3.6834],
+                {}
+            ).addTo(feature_group_86360580511bacf561a1424d4d96a4cc);
+        
+    
+            var icon_9f55cb303388a5346403c16bf5307f91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6347e57f4222a626d919fa499fb2a2f2.setIcon(icon_9f55cb303388a5346403c16bf5307f91);
+        
+    
+        var popup_15ca926bbf250bbdee9caa0ebab2c225 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b63c574512e9ff44135c814e0eeff5dc = $(`<div id="html_b63c574512e9ff44135c814e0eeff5dc" style="width: 100.0%; height: 100.0%;"><b>🚌 Stop 8</b><br>Museo de Ciencias Naturales<br>~49 min walk from hotel</div>`)[0];
+            popup_15ca926bbf250bbdee9caa0ebab2c225.setContent(html_b63c574512e9ff44135c814e0eeff5dc);
+        
+
+        marker_6347e57f4222a626d919fa499fb2a2f2.bindPopup(popup_15ca926bbf250bbdee9caa0ebab2c225)
+        ;
+
+        
+    
+    
+            marker_6347e57f4222a626d919fa499fb2a2f2.bindTooltip(
+                `<div>
+                     🚌 Stop 8 – Museo de Ciencias Naturales
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d6cb07d2b8e73da67b644d2d535c06a5 = L.marker(
+                [40.4299, -3.6953],
+                {}
+            ).addTo(feature_group_86360580511bacf561a1424d4d96a4cc);
+        
+    
+            var icon_7755a6eb39746a20672d320a4b9376e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d6cb07d2b8e73da67b644d2d535c06a5.setIcon(icon_7755a6eb39746a20672d320a4b9376e8);
+        
+    
+        var popup_844d3e27d8871cef9ae0dda471b47dd1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e193a5ce2db79fa28250dbb9d9d1631 = $(`<div id="html_4e193a5ce2db79fa28250dbb9d9d1631" style="width: 100.0%; height: 100.0%;"><b>🚌 Stop 9</b><br>Plaza de Toros<br>~21 min walk from hotel</div>`)[0];
+            popup_844d3e27d8871cef9ae0dda471b47dd1.setContent(html_4e193a5ce2db79fa28250dbb9d9d1631);
+        
+
+        marker_d6cb07d2b8e73da67b644d2d535c06a5.bindPopup(popup_844d3e27d8871cef9ae0dda471b47dd1)
+        ;
+
+        
+    
+    
+            marker_d6cb07d2b8e73da67b644d2d535c06a5.bindTooltip(
+                `<div>
+                     🚌 Stop 9 – Plaza de Toros
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fb46d5f2c2dfb5fc6ec0f0815c858d4b = L.marker(
+                [40.4206, -3.6884],
+                {}
+            ).addTo(feature_group_86360580511bacf561a1424d4d96a4cc);
+        
+    
+            var icon_2cd006238c53cd7320a30ba35f1083ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_fb46d5f2c2dfb5fc6ec0f0815c858d4b.setIcon(icon_2cd006238c53cd7320a30ba35f1083ae);
+        
+    
+        var popup_aaec215420cf34ef457c18686a24a194 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4b5b0875ef83bd5d3e81f3286d561ff = $(`<div id="html_f4b5b0875ef83bd5d3e81f3286d561ff" style="width: 100.0%; height: 100.0%;"><b>🚌 Stop 10</b><br>Puerta de Alcalá<br>~23 min walk from hotel</div>`)[0];
+            popup_aaec215420cf34ef457c18686a24a194.setContent(html_f4b5b0875ef83bd5d3e81f3286d561ff);
+        
+
+        marker_fb46d5f2c2dfb5fc6ec0f0815c858d4b.bindPopup(popup_aaec215420cf34ef457c18686a24a194)
+        ;
+
+        
+    
+    
+            marker_fb46d5f2c2dfb5fc6ec0f0815c858d4b.bindTooltip(
+                `<div>
+                     🚌 Stop 10 – Puerta de Alcalá
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5eaf48928049e6ef2cb13ab59ba4c148 = L.marker(
+                [40.4148, -3.6885],
+                {}
+            ).addTo(feature_group_86360580511bacf561a1424d4d96a4cc);
+        
+    
+            var icon_84210eb8da63ba48fe09d3f3daecdbbe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5eaf48928049e6ef2cb13ab59ba4c148.setIcon(icon_84210eb8da63ba48fe09d3f3daecdbbe);
+        
+    
+        var popup_fb29bc588a49fadd4dfd84ce33098c06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0acfe762188887772277853d5603a03e = $(`<div id="html_0acfe762188887772277853d5603a03e" style="width: 100.0%; height: 100.0%;"><b>🚌 Stop 11</b><br>Plaza Cánovas del Castillo (Neptuno)<br>~24 min walk from hotel</div>`)[0];
+            popup_fb29bc588a49fadd4dfd84ce33098c06.setContent(html_0acfe762188887772277853d5603a03e);
+        
+
+        marker_5eaf48928049e6ef2cb13ab59ba4c148.bindPopup(popup_fb29bc588a49fadd4dfd84ce33098c06)
+        ;
+
+        
+    
+    
+            marker_5eaf48928049e6ef2cb13ab59ba4c148.bindTooltip(
+                `<div>
+                     🚌 Stop 11 – Plaza Cánovas del Castillo (Neptuno)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_533b0f715845b666d1857a109cf1e8b0 = L.polyline(
+                [[40.4148, -3.6885], [40.419, -3.6938], [40.4237, -3.693], [40.4219, -3.707], [40.451, -3.688], [40.4531, -3.6883], [40.424, -3.703], [40.4497, -3.6834], [40.4299, -3.6953], [40.4206, -3.6884], [40.4148, -3.6885]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": "10,10", "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_86360580511bacf561a1424d4d96a4cc);
+        
+    
+            var layer_control_c37360864c19ff2aae458266c61583e6 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_0f0abe77aa7c45a0365c2b68ebd01ecf,
+                },
+                overlays :  {
+                    "Attractions (Green)" : feature_group_1d78d92aa9d1cce00a98c6f10e85c007,
+                    "Restaurants (Blue)" : feature_group_99efd9a885f2910ec764923608d16668,
+                    "Caf\u00e9s (Dark Red)" : feature_group_f07e9fae4131df8491c0c91387ea2dbf,
+                    "Chocolater\u00edas (Brown)" : feature_group_a343ba79082dd4708874f36257e69166,
+                    "Shops \u0026 Markets (Purple)" : feature_group_45fab3d69dfa8083f2a5ebfd16dade98,
+                    "\ud83d\udd34 Historic Route (Red)" : feature_group_6dabd6419ffe9c659c1147bc2721d28f,
+                    "\ud83d\udd35 Modern Route (Blue)" : feature_group_86360580511bacf561a1424d4d96a4cc,
+                },
+            };
+            L.control.layers(
+                layer_control_c37360864c19ff2aae458266c61583e6.base_layers,
+                layer_control_c37360864c19ff2aae458266c61583e6.overlays,
+                {"autoZIndex": true, "collapsed": false, "position": "topright"}
+            ).addTo(map_499206ec6d64eac8015e88390cc58669);
+            feature_group_6dabd6419ffe9c659c1147bc2721d28f.remove();
+            feature_group_86360580511bacf561a1424d4d96a4cc.remove();
+        
+</script>
+</html>
